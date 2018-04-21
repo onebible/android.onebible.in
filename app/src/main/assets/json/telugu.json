@@ -1,0 +1,413 @@
+{
+  "header": {
+    "name": "Books"
+  },
+  "sections": [
+    {
+      "name": "పాత నిబంధన",
+      "is_old_testament": true
+    },
+    {
+      "name": "కొత్త నిబంధన",
+      "is_old_testament": false
+    }
+  ],
+  "books": [
+    {
+      "id": 0,
+      "name": "ఆదికాండము",
+      "count": 50,
+      "is_old_testament": true
+    },
+    {
+      "id": 1,
+      "name": "నిర్గమకాండము",
+      "count": 40,
+      "is_old_testament": true
+    },
+    {
+      "id": 2,
+      "name": "లేవీయకాండము",
+      "count": 27,
+      "is_old_testament": true
+    },
+    {
+      "id": 3,
+      "name": "సంఖ్యాకాండము",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 4,
+      "name": "ద్వితీయోపదేశకాండమ",
+      "count": 34,
+      "is_old_testament": true
+    },
+    {
+      "id": 5,
+      "name": "యెహొషువ",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 6,
+      "name": "న్యాయాధిపతులు",
+      "count": 21,
+      "is_old_testament": true
+    },
+    {
+      "id": 7,
+      "name": "రూతు",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 8,
+      "name": "సమూయేలు మొదటి గ్రంథము",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 9,
+      "name": "సమూయేలు రెండవ గ్రంథము",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 10,
+      "name": "రాజులు మొదటి గ్రంథము",
+      "count": 22,
+      "is_old_testament": true
+    },
+    {
+      "id": 11,
+      "name": "రాజులు రెండవ గ్రంథము",
+      "count": 25,
+      "is_old_testament": true
+    },
+    {
+      "id": 12,
+      "name": "దినవృత్తాంతములు మొదటి గ్రంథము",
+      "count": 29,
+      "is_old_testament": true
+    },
+    {
+      "id": 13,
+      "name": "దినవృత్తాంతములు రెండవ గ్రంథము",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 14,
+      "name": "ఎజ్రా",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 15,
+      "name": "నెహెమ్యా",
+      "count": 13,
+      "is_old_testament": true
+    },
+    {
+      "id": 16,
+      "name": "ఎస్తేరు",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 17,
+      "name": "యోబు గ్రంథము",
+      "count": 42,
+      "is_old_testament": true
+    },
+    {
+      "id": 18,
+      "name": "కీర్తనల గ్రంథము",
+      "count": 150,
+      "is_old_testament": true
+    },
+    {
+      "id": 19,
+      "name": "సామెతలు",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 20,
+      "name": "ప్రసంగి",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 21,
+      "name": "పరమగీతము",
+      "count": 8,
+      "is_old_testament": true
+    },
+    {
+      "id": 22,
+      "name": "యెషయా గ్రంథము",
+      "count": 66,
+      "is_old_testament": true
+    },
+    {
+      "id": 23,
+      "name": "యిర్మీయా",
+      "count": 52,
+      "is_old_testament": true
+    },
+    {
+      "id": 24,
+      "name": "విలాపవాక్యములు",
+      "count": 5,
+      "is_old_testament": true
+    },
+    {
+      "id": 25,
+      "name": "యెహెజ్కేలు",
+      "count": 48,
+      "is_old_testament": true
+    },
+    {
+      "id": 26,
+      "name": "దానియేలు",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 27,
+      "name": "హొషేయ",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 28,
+      "name": "యోవేలు",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 29,
+      "name": "ఆమోసు",
+      "count": 9,
+      "is_old_testament": true
+    },
+    {
+      "id": 30,
+      "name": "ఓబద్యా",
+      "count": 1,
+      "is_old_testament": true
+    },
+    {
+      "id": 31,
+      "name": "యోనా",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 32,
+      "name": "మీకా",
+      "count": 7,
+      "is_old_testament": true
+    },
+    {
+      "id": 33,
+      "name": "నహూము",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 34,
+      "name": "హబక్కూకు",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 35,
+      "name": "జెఫన్యా",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 36,
+      "name": "హగ్గయి",
+      "count": 2,
+      "is_old_testament": true
+    },
+    {
+      "id": 37,
+      "name": "జెకర్యా",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 38,
+      "name": "మలాకీ",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 39,
+      "name": "మత్తయి సువార్త",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 40,
+      "name": "మార్కు సువార్త",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 41,
+      "name": "లూకా సువార్త",
+      "count": 24,
+      "is_old_testament": false
+    },
+    {
+      "id": 42,
+      "name": "యోహాను సువార్త",
+      "count": 21,
+      "is_old_testament": false
+    },
+    {
+      "id": 43,
+      "name": "అపొస్తలుల కార్యములు",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 44,
+      "name": "రోమీయులకు",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 45,
+      "name": "1 కొరింథీయులకు",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 46,
+      "name": "2 కొరింథీయులకు",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 47,
+      "name": "గలతీయులకు",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 48,
+      "name": "ఎఫెసీయులకు",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 49,
+      "name": "ఫిలిప్పీయులకు",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 50,
+      "name": "కొలొస్సయులకు",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 51,
+        "name": "1 థెస్సలొనీకయులకు",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 52,
+      "name": "2 థెస్సలొనీకయులకు",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 53,
+      "name": "1 తిమోతికి",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 54,
+      "name": "2 తిమోతికి",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 55,
+      "name": "తీతుకు",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 56,
+      "name": "ఫిలేమోనుకు",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 57,
+      "name": "హెబ్రీయులకు",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 58,
+      "name": "యాకోబు",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 59,
+      "name": "1 పేతురు",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 60,
+      "name": "2 పేతురు",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 61,
+      "name": "1 యోహాను",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 62,
+      "name": "2 యోహాను",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 63,
+      "name": "3 యోహాను",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 64,
+      "name": "యూదా",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 65,
+      "name": "ప్రకటన గ్రంథము",
+      "count": 22,
+      "is_old_testament": false
+    }
+  ]
+}

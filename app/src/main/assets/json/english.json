@@ -1,0 +1,413 @@
+{
+  "header": {
+    "name": "Books"
+  },
+  "sections": [
+    {
+      "name": "Old Testament",
+      "is_old_testament": true
+    },
+    {
+      "name": "New Testament",
+      "is_old_testament": false
+    }
+  ],
+  "books": [
+    {
+      "id": 0,
+      "name": "Genesis",
+      "count": 50,
+      "is_old_testament": true
+    },
+    {
+      "id": 1,
+      "name": "Exodus",
+      "count": 40,
+      "is_old_testament": true
+    },
+    {
+      "id": 2,
+      "name": "Leviticus",
+      "count": 27,
+      "is_old_testament": true
+    },
+    {
+      "id": 3,
+      "name": "Numbers",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 4,
+      "name": "Deuteronomy",
+      "count": 34,
+      "is_old_testament": true
+    },
+    {
+      "id": 5,
+      "name": "Joshua",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 6,
+      "name": "Judges",
+      "count": 21,
+      "is_old_testament": true
+    },
+    {
+      "id": 7,
+      "name": "Ruth",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 8,
+      "name": "I Samuel",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 9,
+      "name": "II Samuel",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 10,
+      "name": "I Kings",
+      "count": 22,
+      "is_old_testament": true
+    },
+    {
+      "id": 11,
+      "name": "II Kings",
+      "count": 25,
+      "is_old_testament": true
+    },
+    {
+      "id": 12,
+      "name": "I Chronicles",
+      "count": 29,
+      "is_old_testament": true
+    },
+    {
+      "id": 13,
+      "name": "II Chronicles",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 14,
+      "name": "Ezra",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 15,
+      "name": "Nehemiah",
+      "count": 13,
+      "is_old_testament": true
+    },
+    {
+      "id": 16,
+      "name": "Esther",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 17,
+      "name": "Job",
+      "count": 42,
+      "is_old_testament": true
+    },
+    {
+      "id": 18,
+      "name": "Psalms",
+      "count": 150,
+      "is_old_testament": true
+    },
+    {
+      "id": 19,
+      "name": "Proverbs",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 20,
+      "name": "Ecclesiastes",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 21,
+      "name": "Song of Solomon",
+      "count": 8,
+      "is_old_testament": true
+    },
+    {
+      "id": 22,
+      "name": "Isaiah",
+      "count": 66,
+      "is_old_testament": true
+    },
+    {
+      "id": 23,
+      "name": "Jeremiah",
+      "count": 52,
+      "is_old_testament": true
+    },
+    {
+      "id": 24,
+      "name": "Lamentations",
+      "count": 5,
+      "is_old_testament": true
+    },
+    {
+      "id": 25,
+      "name": "Ezekiel",
+      "count": 48,
+      "is_old_testament": true
+    },
+    {
+      "id": 26,
+      "name": "Daniel",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 27,
+      "name": "Hosea",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 28,
+      "name": "Joel",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 29,
+      "name": "Amos",
+      "count": 9,
+      "is_old_testament": true
+    },
+    {
+      "id": 30,
+      "name": "Obadiah",
+      "count": 1,
+      "is_old_testament": true
+    },
+    {
+      "id": 31,
+      "name": "Jonah",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 32,
+      "name": "Micah",
+      "count": 7,
+      "is_old_testament": true
+    },
+    {
+      "id": 33,
+      "name": "Nahum",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 34,
+      "name": "Habakkuk",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 35,
+      "name": "Zephaniah",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 36,
+      "name": "Haggai",
+      "count": 2,
+      "is_old_testament": true
+    },
+    {
+      "id": 37,
+      "name": "Zechariah",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 38,
+      "name": "Malachi",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 39,
+      "name": "Matthew",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 40,
+      "name": "Mark",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 41,
+      "name": "Luke",
+      "count": 24,
+      "is_old_testament": false
+    },
+    {
+      "id": 42,
+      "name": "John",
+      "count": 21,
+      "is_old_testament": false
+    },
+    {
+      "id": 43,
+      "name": "Acts",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 44,
+      "name": "Romans",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 45,
+      "name": "I Corinthians",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 46,
+      "name": "II Corinthians",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 47,
+      "name": "Galatians",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 48,
+      "name": "Ephesians",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 49,
+      "name": "Philippians",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 50,
+      "name": "Colossians",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 51,
+      "name": "I Thessalonians",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 52,
+      "name": "II Thessalonians",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 53,
+      "name": "I Timothy",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 54,
+      "name": "II Timothy",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 55,
+      "name": "Titus",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 56,
+      "name": "Philemon",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 57,
+      "name": "Hebrews",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 58,
+      "name": "James",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 59,
+      "name": "I Peter",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 60,
+      "name": "II Peter",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 61,
+      "name": "I John",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 62,
+      "name": "II John",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 63,
+      "name": "III John",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 64,
+      "name": "Jude",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 65,
+      "name": "Revelation",
+      "count": 22,
+      "is_old_testament": false
+    }
+  ]
+}

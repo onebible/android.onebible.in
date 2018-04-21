@@ -1,0 +1,1 @@
+update tbl_bible_tamil set verse='அவருடைய மனவிருப்பத்தின்படி நீர் அவருக்குத் தந்தருளி, அவருடைய உதடுகளின் விண்ணப்பத்தைத் தள்ளாதிருக்கிறீர். (சேலா.)' where book_id=18 and chapter_id=21 and verse_id= 2;

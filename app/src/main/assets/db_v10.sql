@@ -1,0 +1,7 @@
+INSERT INTO tbl_languages(title, suffix, is_installed, download_url) VALUES("Bengali", "bengali",0 ,'https://s3.ap-south-1.amazonaws.com/onebible.in/tbl_bible_english.sql.zip');
+INSERT INTO tbl_languages(title, suffix, is_installed, download_url) VALUES("Gujarati", "gujarati", 0,'https://s3.ap-south-1.amazonaws.com/onebible.in/tbl_bible_hindi.sql.zip');
+INSERT INTO tbl_languages(title, suffix, is_installed, download_url) VALUES("Kannada", "kannada", 0,'https://s3.ap-south-1.amazonaws.com/onebible.in/tbl_bible_tamil.sql.zip');
+INSERT INTO tbl_languages(title, suffix, is_installed, download_url) VALUES("Malayalam", "malayalam", 0,'https://s3.ap-south-1.amazonaws.com/onebible.in/tbl_bible_tamil.sql.zip');
+INSERT INTO tbl_languages(title, suffix, is_installed, download_url) VALUES("Oriya", "oriya", 0,'https://s3.ap-south-1.amazonaws.com/onebible.in/tbl_bible_tamil.sql.zip');
+INSERT INTO tbl_languages(title, suffix, is_installed, download_url) VALUES("Punjabi", "punjabi", 0,'https://s3.ap-south-1.amazonaws.com/onebible.in/tbl_bible_tamil.sql.zip');
+INSERT INTO tbl_languages(title, suffix, is_installed, download_url) VALUES("Telugu", "telugu", 0,'https://s3.ap-south-1.amazonaws.com/onebible.in/tbl_bible_tamil.sql.zip');

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/note_swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="@dimen/swipe_right_width"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/note_edit_row_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/swipe_right_bg">
+
+            <ImageView
+                android:id="@+id/note_edit_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_mode_edit_black_24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/note_share_row_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/swipe_right_bg">
+
+            <ImageView
+                android:id="@+id/note_share_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_share_black_24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/note_delete_row_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/swipe_right_bg">
+
+            <ImageView
+                android:id="@+id/note_delete_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_delete_black_24dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_note_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/note_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/row_item_background"
+
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            android:paddingEnd="2dp"
+            android:paddingLeft="?listPreferredItemPaddingLeft"
+            android:paddingRight="?listPreferredItemPaddingRight"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/note_title_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:ellipsize="end"
+                android:maxLength="18"
+                android:maxLines="1"
+                android:paddingBottom="2dp"
+
+                android:paddingTop="2dp"
+                android:singleLine="true"
+                android:textColor="@color/verse"
+
+                android:textSize="@dimen/msg_text_secondary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note_description_txt_view"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+
+                android:lineSpacingExtra="5dp"
+                android:lines="3"
+                android:maxLines="2"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:textColor="@color/verse"
+                android:textSize="@dimen/msg_text_secondary" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="20dp"
+            android:paddingTop="13dp"
+            android:textColor="@color/row_item_minor_text_color"
+            android:textSize="@dimen/timestamp" />
+
+    </RelativeLayout>
+
+</com.daimajia.swipe.SwipeLayout>

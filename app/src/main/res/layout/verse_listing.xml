@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/navigation_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/previous_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight=".50"
+            android:background="@drawable/navigation_button_ripple"
+            android:drawableLeft="@drawable/ic_keyboard_arrow_left_black_24dp"
+            android:paddingLeft="18dp"
+            android:text="Previous"
+            android:textAlignment="textStart" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight=".50"
+            android:background="@drawable/navigation_button_ripple"
+            android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:paddingRight="18dp"
+            android:text="Next"
+            android:textAlignment="textEnd" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:background="@color/row_item_background"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/navigation_header"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>

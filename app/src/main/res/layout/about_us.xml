@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_background">
+
+    <LinearLayout
+        android:id="@+id/header_verse_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/about_us_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/location_font_color"
+            android:textIsSelectable="true"
+            android:text="@string/app_name"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/app_version_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/header_verse_layout"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/ll_bg"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/app_version_txtview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rate_us_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_version_layout"
+        android:background="@drawable/about_us_click_section"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/about_us_layout_bottom_padding"
+        android:paddingLeft="@dimen/about_us_layout_padding"
+        android:paddingRight="@dimen/about_us_layout_padding"
+        android:paddingTop="@dimen/about_us_layout_top_padding"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_star_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Rate us"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView7"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Helps others to discover our app on the Play store"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/email_us_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rate_us_layout"
+        android:background="@drawable/about_us_click_section"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/about_us_layout_bottom_padding"
+        android:paddingLeft="@dimen/about_us_layout_padding"
+        android:paddingRight="@dimen/about_us_layout_padding"
+        android:paddingTop="@dimen/about_us_layout_top_padding"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_mail_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Email us"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView7"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Notice a spelling mistake? have a feedback? Email us"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fb_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_us_layout"
+        android:background="@drawable/about_us_click_section"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/about_us_layout_bottom_padding"
+        android:paddingLeft="@dimen/about_us_layout_padding"
+        android:paddingRight="@dimen/about_us_layout_padding"
+        android:paddingTop="@dimen/about_us_layout_top_padding"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/iv_fb"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_thumb_up_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_fb"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Like us on Facebook"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView8"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Be the first to hear from us"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/instagram_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fb_layout"
+        android:background="@drawable/about_us_click_section"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/about_us_layout_bottom_padding"
+        android:paddingLeft="@dimen/about_us_layout_padding"
+        android:paddingRight="@dimen/about_us_layout_top_padding"
+        android:paddingTop="@dimen/about_us_layout_padding"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/iv_instagram"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_photo_camera_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_instagram"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Follow us on Instagram"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView7"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Inspirational pictures that you would LOVE"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/app_version_layout"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/developer_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/about_us_verse"
+            android:autoLink="web"
+            android:gravity="center"
+            android:lineSpacingExtra="2dp"
+            android:paddingBottom="2dp"
+            android:paddingTop="10dp"
+            android:text="onebible.in"
+            android:textAlignment="center"
+            android:textColor="@color/location_font_color"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

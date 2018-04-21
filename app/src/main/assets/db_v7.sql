@@ -1,0 +1,3 @@
+CREATE TABLE `tbl_thread_bookmarks` (`id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, `color` TEXT NOT NULL, `title` TEXT NOT NULL, `hex_code` TEXT NOT NULL,`book_id` TEXT NOT NULL, `chapter_id` TEXT NOT NULL,	`created_at` TIMESTAMP, 	`updated_at`	TIMESTAMP);INSERT INTO tbl_reading_threads(color,title,book_id,chapter_id) VALUES("yellow","ஆதியாகமம் 1", 0, 1);
+INSERT INTO tbl_thread_bookmarks(color, title, hex_code, book_id, chapter_id) VALUES("yellow", "ஆதியாகமம் 1", "#ffeb3b", 0, 1);
+INSERT INTO tbl_thread_bookmarks(color, title, hex_code, book_id, chapter_id) VALUES("grey", "மத்தேயு 1", "#bdbdbd", 39, 1);

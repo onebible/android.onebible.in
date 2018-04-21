@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/book_frag"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.TabLayout
+        app:tabBackground="@drawable/tab_color_selector"
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:textSize="17sp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabItem
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="ஆகமம்" />
+
+        <android.support.design.widget.TabItem
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="அதிகாரம்" />
+
+        <android.support.design.widget.TabItem
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="வசனம்" />
+    </android.support.design.widget.TabLayout>
+
+    <FrameLayout
+        android:id="@+id/child_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

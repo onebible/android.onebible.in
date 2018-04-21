@@ -1,0 +1,413 @@
+{
+  "header": {
+    "name": "Books"
+  },
+  "sections": [
+    {
+      "name": "പഴയ നിയമം.",
+      "is_old_testament": true
+    },
+    {
+      "name": "പുതിയ നിയമം",
+      "is_old_testament": false
+    }
+  ],
+  "books": [
+    {
+      "id": 0,
+        "name": "ഉല്പത്തി",
+      "count": 50,
+      "is_old_testament": true
+    },
+    {
+      "id": 1,
+      "name": "പുറപ്പാടു്",
+      "count": 40,
+      "is_old_testament": true
+    },
+    {
+      "id": 2,
+      "name": "ലേവ്യപുസ്തകം",
+      "count": 27,
+      "is_old_testament": true
+    },
+    {
+      "id": 3,
+      "name": "സംഖ്യാപുസ്തകം",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 4,
+      "name": "ആവർത്തനം",
+      "count": 34,
+      "is_old_testament": true
+    },
+    {
+      "id": 5,
+      "name": "യോശുവ",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 6,
+      "name": "ന്യായാധിപന്മാർ",
+      "count": 21,
+      "is_old_testament": true
+    },
+    {
+      "id": 7,
+      "name": "രൂത്ത്",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 8,
+      "name": "ശമൂവേൽ 1",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 9,
+      "name": "ശമൂവേൽ 2",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 10,
+        "name": "രാജാക്കന്മാർ 1",
+      "count": 22,
+      "is_old_testament": true
+    },
+    {
+      "id": 11,
+      "name": "രാജാക്കന്മാർ 2",
+      "count": 25,
+      "is_old_testament": true
+    },
+    {
+      "id": 12,
+      "name": "ദിനവൃത്താന്തം 1",
+      "count": 29,
+      "is_old_testament": true
+    },
+    {
+      "id": 13,
+      "name": "ദിനവൃത്താന്തം 2",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 14,
+      "name": "എസ്രാ",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 15,
+      "name": "നെഹെമ്യാവു",
+      "count": 13,
+      "is_old_testament": true
+    },
+    {
+      "id": 16,
+      "name": "എസ്ഥേർ",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 17,
+      "name": "ഇയ്യോബ്",
+      "count": 42,
+      "is_old_testament": true
+    },
+    {
+      "id": 18,
+        "name": "സങ്കീർത്തനങ്ങൾ",
+      "count": 150,
+      "is_old_testament": true
+    },
+    {
+      "id": 19,
+      "name": "സദൃശ്യവാക്യങ്ങൾ",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 20,
+      "name": "സഭാപ്രസംഗി",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 21,
+      "name": "ഉത്തമ ഗീതം",
+      "count": 8,
+      "is_old_testament": true
+    },
+    {
+      "id": 22,
+      "name": "യെശയ്യാ",
+      "count": 66,
+      "is_old_testament": true
+    },
+    {
+      "id": 23,
+      "name": "യിരേമ്യാവു",
+      "count": 52,
+      "is_old_testament": true
+    },
+    {
+      "id": 24,
+      "name": "വിലാപങ്ങൾ",
+      "count": 5,
+      "is_old_testament": true
+    },
+    {
+      "id": 25,
+      "name": "യേഹേസ്കേൽ",
+      "count": 48,
+      "is_old_testament": true
+    },
+    {
+      "id": 26,
+      "name": "ദാനീയേൽ",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 27,
+      "name": "ഹോശേയ",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 28,
+      "name": "യോവേൽ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 29,
+      "name": "ആമോസ്",
+      "count": 9,
+      "is_old_testament": true
+    },
+    {
+      "id": 30,
+      "name": "ഓബദ്യാവു",
+      "count": 1,
+      "is_old_testament": true
+    },
+    {
+      "id": 31,
+      "name": "യോനാ",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 32,
+      "name": "മീഖാ",
+      "count": 7,
+      "is_old_testament": true
+    },
+    {
+      "id": 33,
+      "name": "നഹൂം",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 34,
+      "name": "ഹബക്കൂക്‍",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 35,
+      "name": "സെഫന്യാവു",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 36,
+      "name": "ഹഗ്ഗായി",
+      "count": 2,
+      "is_old_testament": true
+    },
+    {
+      "id": 37,
+      "name": "സെഖർയ്യാവു",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 38,
+      "name": "മലാഖി",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 39,
+      "name": "മത്തായി",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 40,
+      "name": "മർക്കൊസ്",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 41,
+      "name": "ലൂക്കോസ്",
+      "count": 24,
+      "is_old_testament": false
+    },
+    {
+      "id": 42,
+      "name": "യോഹന്നാൻ",
+      "count": 21,
+      "is_old_testament": false
+    },
+    {
+      "id": 43,
+      "name": "പ്രവൃത്തികൾ",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 44,
+      "name": "റോമർ",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 45,
+      "name": "കൊരിന്ത്യർ 1",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 46,
+      "name": "കൊരിന്ത്യർ 2",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 47,
+      "name": "ഗലാത്യർ",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 48,
+      "name": "എഫെസ്യർ",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 49,
+      "name": "ഫിലിപ്പിയർ",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 50,
+      "name": "കൊലൊസ്സ്യർ",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 51,
+      "name": "തെസ്സലൊനീക്യർ 1",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 52,
+      "name": "തെസ്സലൊനീക്യർ 2",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 53,
+      "name": "തിമൊഥെയൊസ് 1",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 54,
+      "name": "തിമൊഥെയൊസ് 2",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 55,
+      "name": "തീത്തൊസ്",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 56,
+      "name": "ഫിലേമോൻ",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 57,
+      "name": "എബ്രായർ",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 58,
+      "name": "യാക്കോബ്",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 59,
+      "name": "പത്രൊസ് 1",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 60,
+      "name": "പത്രൊസ് 2",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 61,
+      "name": "യോഹന്നാൻ 1",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 62,
+      "name": "യോഹന്നാൻ 2",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 63,
+      "name": "യോഹന്നാൻ 3",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 64,
+      "name": "യൂദാ",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 65,
+      "name": "വെളിപ്പാടു",
+      "count": 22,
+      "is_old_testament": false
+    }
+  ]
+}

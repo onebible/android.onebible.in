@@ -1,0 +1,413 @@
+{
+  "header": {
+    "name": "सुसमाचार"
+  },
+  "sections": [
+    {
+      "name": "पुराना वसीयतनामा",
+      "is_old_testament": true
+    },
+    {
+      "name": "नए करार",
+      "is_old_testament": false
+    }
+  ],
+  "books": [
+    {
+      "id": 0,
+      "name": "उत्पत्ति",
+      "count": 50,
+      "is_old_testament": true
+    },
+    {
+      "id": 1,
+      "name": "निर्गमन",
+      "count": 40,
+      "is_old_testament": true
+    },
+    {
+      "id": 2,
+      "name": "लैव्यवस्था",
+      "count": 27,
+      "is_old_testament": true
+    },
+    {
+      "id": 3,
+      "name": "गिनती",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 4,
+      "name": "व्यवस्थाविवरण",
+      "count": 34,
+      "is_old_testament": true
+    },
+    {
+      "id": 5,
+      "name": "यहोशू",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 6,
+      "name": "न्यायियों",
+      "count": 21,
+      "is_old_testament": true
+    },
+    {
+      "id": 7,
+      "name": "रूत",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 8,
+      "name": "I शमूएल",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 9,
+      "name": "II शमूएल",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 10,
+      "name": "I राजा",
+      "count": 22,
+      "is_old_testament": true
+    },
+    {
+      "id": 11,
+      "name": "II राजा",
+      "count": 25,
+      "is_old_testament": true
+    },
+    {
+      "id": 12,
+      "name": "I इतिहास",
+      "count": 29,
+      "is_old_testament": true
+    },
+    {
+      "id": 13,
+      "name": "II इतिहास",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 14,
+      "name": "एज्रा",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 15,
+      "name": "नहेमायाह",
+      "count": 13,
+      "is_old_testament": true
+    },
+    {
+      "id": 16,
+      "name": "एस्तेर",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 17,
+      "name": "अय्यूब",
+      "count": 42,
+      "is_old_testament": true
+    },
+    {
+      "id": 18,
+      "name": "भजन संहिता",
+      "count": 150,
+      "is_old_testament": true
+    },
+    {
+      "id": 19,
+      "name": "नीतिवचन",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 20,
+      "name": "सभोपदेशक",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 21,
+      "name": "श्रेष्ठगीत",
+      "count": 8,
+      "is_old_testament": true
+    },
+    {
+      "id": 22,
+      "name": "यशायाह",
+      "count": 66,
+      "is_old_testament": true
+    },
+    {
+      "id": 23,
+      "name": "यिर्मयाह",
+      "count": 52,
+      "is_old_testament": true
+    },
+    {
+      "id": 24,
+      "name": "विलापगीत",
+      "count": 5,
+      "is_old_testament": true
+    },
+    {
+      "id": 25,
+      "name": "यहेजकेल",
+      "count": 48,
+      "is_old_testament": true
+    },
+    {
+      "id": 26,
+      "name": "दानिय्येल",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 27,
+      "name": "होशे",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 28,
+      "name": "योएल",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 29,
+      "name": "आमोस",
+      "count": 9,
+      "is_old_testament": true
+    },
+    {
+      "id": 30,
+      "name": "ओबद्दाह",
+      "count": 1,
+      "is_old_testament": true
+    },
+    {
+      "id": 31,
+      "name": "योना",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 32,
+      "name": "मीका",
+      "count": 7,
+      "is_old_testament": true
+    },
+    {
+      "id": 33,
+      "name": "नहूम",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 34,
+      "name": "हबक्कूक",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 35,
+      "name": "सपन्याह",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 36,
+      "name": "हाग्गै",
+      "count": 2,
+      "is_old_testament": true
+    },
+    {
+      "id": 37,
+      "name": "जकर्याह",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 38,
+      "name": "मलाकी",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 39,
+      "name": "मत्ती",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 40,
+      "name": "मरकुस",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 41,
+      "name": "लूका",
+      "count": 24,
+      "is_old_testament": false
+    },
+    {
+      "id": 42,
+      "name": "यूहन्ना",
+      "count": 21,
+      "is_old_testament": false
+    },
+    {
+      "id": 43,
+      "name": "प्रेरितों के काम",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 44,
+      "name": "रोमियो",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 45,
+      "name": "I कुरिन्थियों",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 46,
+      "name": "II कुरिन्थियों",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 47,
+      "name": "गलातियों",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 48,
+      "name": "इफिसियों",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 49,
+      "name": "फिलिप्पियों",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 50,
+      "name": "कुलुस्सियों",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 51,
+      "name": "I थिस्सलुनीकियों",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 52,
+      "name": "II थिस्सलुनीकियों",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 53,
+      "name": "I तीमुथियुस",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 54,
+      "name": "II तीमुथियुस",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 55,
+      "name": "तीतुस",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 56,
+      "name": "फिलेमोन",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 57,
+      "name": "इब्रानियों",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 58,
+      "name": "याकूब",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 59,
+      "name": "I पतरस",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 60,
+      "name": "II पतरस",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 61,
+      "name": "I यूहन्ना",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 62,
+      "name": "II यूहन्ना",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 63,
+      "name": "III यूहन्ना",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 64,
+      "name": "यहूदा",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 65,
+      "name": "प्रकाशित वाक्य",
+      "count": 22,
+      "is_old_testament": false
+    }
+  ]
+}

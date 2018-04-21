@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.sridhar.tamilbible.activity.NoteCreationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/notes_ll_bg"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/title_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your note title" />
+
+        <EditText
+            android:id="@+id/description_e"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="Your note description"
+            android:textIsSelectable="true"
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="25"
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/edit_note"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="24dp"
+        android:clickable="true"
+        android:tint="@color/fab_button_font_color"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_edit_white_24dp" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OneBible</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="book_listing_header_in_tamil">ஆகமங்கள்</string>
+    <string name="old_testament_in_tamil">பழைய ஏற்பாடு</string>
+    <string name="new_testament_in_tamil">புதிய ஏற்பாடு</string>
+    <string name="title_activity_search_info">SearchInfoActivity</string>
+
+    <string name="font_settings_title">Font Settings</string>
+    <string name="display_settings_title">Display Settings</string>
+    <string name="bookmark_action_menu_title">Bookmarking thread</string>
+    <string name="yellow_thread_title">Move yellow thread here</string>
+    <string name="grey_thread_title">Move grey thread here</string>
+
+    <string name="show_second_lang_title">Show second language</string>
+
+</resources>

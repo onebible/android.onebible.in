@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="இதோ, உலகத்தின் முடிவுபரியந்தம் சகல நாட்களிலும் நான் உங்களுடனேகூட இருக்கிறேன் என்றார் - மத்தேயு 28:20"
+        android:layout_marginTop="65dp"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

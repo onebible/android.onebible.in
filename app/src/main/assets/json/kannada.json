@@ -1,0 +1,413 @@
+{
+  "header": {
+    "name": "Books"
+  },
+  "sections": [
+    {
+      "name": "ಹಳೆಯ ಒಡಂಬಡಿಕೆ",
+      "is_old_testament": true
+    },
+    {
+      "name": "ಹೊಸ ಒಡಂಬಡಿಕೆಯು",
+      "is_old_testament": false
+    }
+  ],
+  "books": [
+    {
+      "id": 0,
+      "name": "ಆದಿಕಾಂಡ",
+      "count": 50,
+      "is_old_testament": true
+    },
+    {
+      "id": 1,
+      "name": "ವಿಮೋಚನಕಾಂಡ",
+      "count": 40,
+      "is_old_testament": true
+    },
+    {
+      "id": 2,
+      "name": "ಯಾಜಕಕಾಂಡ",
+      "count": 27,
+      "is_old_testament": true
+    },
+    {
+      "id": 3,
+      "name": "ಅರಣ್ಯಕಾಂಡ",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 4,
+      "name": "ಧರ್ಮೋಪದೇಶಕಾಂಡ",
+      "count": 34,
+      "is_old_testament": true
+    },
+    {
+      "id": 5,
+      "name": "ಯೆಹೋಶುವ",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 6,
+      "name": "ನ್ಯಾಯಸ್ಥಾಪಕರು",
+      "count": 21,
+      "is_old_testament": true
+    },
+    {
+      "id": 7,
+      "name": "ರೂತಳು",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 8,
+      "name": "1 ಸಮುವೇಲನು",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 9,
+      "name": "2 ಸಮುವೇಲನು",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 10,
+      "name": "1 ಅರಸುಗಳು",
+      "count": 22,
+      "is_old_testament": true
+    },
+    {
+      "id": 11,
+      "name": "2 ಅರಸುಗಳು",
+      "count": 25,
+      "is_old_testament": true
+    },
+    {
+      "id": 12,
+      "name": "1 ಪೂರ್ವಕಾಲವೃತ್ತಾ",
+      "count": 29,
+      "is_old_testament": true
+    },
+    {
+      "id": 13,
+      "name": "2 ಪೂರ್ವಕಾಲವೃತ್ತಾ",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 14,
+      "name": "ಎಜ್ರನು",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 15,
+      "name": "ನೆಹೆಮಿಯ",
+      "count": 13,
+      "is_old_testament": true
+    },
+    {
+      "id": 16,
+      "name": "ಎಸ್ತೇರಳು",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 17,
+      "name": "ಯೋಬನು",
+      "count": 42,
+      "is_old_testament": true
+    },
+    {
+      "id": 18,
+      "name": "ಕೀರ್ತನೆಗಳು",
+      "count": 150,
+      "is_old_testament": true
+    },
+    {
+      "id": 19,
+      "name": "ಙ್ಞಾನೋಕ್ತಿಗಳು",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 20,
+      "name": "ಪ್ರಸಂಗಿ",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 21,
+      "name": "ಪರಮ ಗೀತ",
+      "count": 8,
+      "is_old_testament": true
+    },
+    {
+      "id": 22,
+      "name": "ಯೆಶಾಯ",
+      "count": 66,
+      "is_old_testament": true
+    },
+    {
+      "id": 23,
+      "name": "ಯೆರೆಮಿಯ",
+      "count": 52,
+      "is_old_testament": true
+    },
+    {
+      "id": 24,
+      "name": "ಪ್ರಲಾಪಗಳು",
+      "count": 5,
+      "is_old_testament": true
+    },
+    {
+      "id": 25,
+      "name": "ಯೆಹೆಜ್ಕೇಲನು",
+      "count": 48,
+      "is_old_testament": true
+    },
+    {
+      "id": 26,
+      "name": "ದಾನಿಯೇಲನು",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 27,
+      "name": "ಹೋಶೇ",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 28,
+      "name": "ಯೋವೇಲ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 29,
+      "name": "ಆಮೋಸ",
+      "count": 9,
+      "is_old_testament": true
+    },
+    {
+      "id": 30,
+      "name": "ಓಬದ್ಯ",
+      "count": 1,
+      "is_old_testament": true
+    },
+    {
+      "id": 31,
+      "name": "ಯೋನ",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 32,
+      "name": "ಮಿಕ",
+      "count": 7,
+      "is_old_testament": true
+    },
+    {
+      "id": 33,
+      "name": "ನಹೂಮ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 34,
+      "name": "ಹಬಕ್ಕೂಕ್ಕ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 35,
+      "name": "ಚೆಫನ್ಯ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 36,
+      "name": "ಹಗ್ಗಾಯ",
+      "count": 2,
+      "is_old_testament": true
+    },
+    {
+      "id": 37,
+      "name": "ಜೆಕರ್ಯ",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 38,
+      "name": "ಮಲಾಕಿಯ",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 39,
+      "name": "ಮತ್ತಾಯನು",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 40,
+      "name": "ಮಾರ್ಕನು",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 41,
+      "name": "ಲೂಕನು",
+      "count": 24,
+      "is_old_testament": false
+    },
+    {
+      "id": 42,
+      "name": "ಯೋಹಾನನು",
+      "count": 21,
+      "is_old_testament": false
+    },
+    {
+      "id": 43,
+      "name": "ಅಪೊಸ್ತಲರ ಕೃತ್ಯಗ",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 44,
+      "name": "ರೋಮಾಪುರದವರಿಗೆ",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 45,
+      "name": "1 ಕೊರಿಂಥದವರಿಗೆ",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 46,
+      "name": "2 ಕೊರಿಂಥದವರಿಗೆ",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 47,
+      "name": "ಗಲಾತ್ಯದವರಿಗೆ",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 48,
+      "name": "ಎಫೆಸದವರಿಗೆ",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 49,
+      "name": "ಫಿಲಿಪ್ಪಿಯವರಿಗೆ",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 50,
+      "name": "ಕೊಲೊಸ್ಸೆಯವರಿಗೆ",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 51,
+      "name": "1 ಥೆಸಲೊನೀಕದವರಿಗೆ",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 52,
+      "name": "2 ಥೆಸಲೊನೀಕದವರಿಗೆ",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 53,
+      "name": "1 ತಿಮೊಥೆಯನಿಗೆ",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 54,
+      "name": "2 ತಿಮೊಥೆಯನಿಗೆ",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 55,
+      "name": "ತೀತನಿಗೆ",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 56,
+      "name": "ಫಿಲೆಮೋನನಿಗೆ",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 57,
+      "name": "ಇಬ್ರಿಯರಿಗೆ",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 58,
+      "name": "ಯಾಕೋಬನು",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 59,
+      "name": "1 ಪೇತ್ರನು",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 60,
+      "name": "2 ಪೇತ್ರನು",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 61,
+      "name": "1 ಯೋಹಾನನು",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 62,
+      "name": "2 ಯೋಹಾನನು",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 63,
+      "name": "3 ಯೋಹಾನನು",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 64,
+      "name": "ಯೂದನು",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 65,
+      "name": "ಪ್ರಕಟನೆ",
+      "count": 22,
+      "is_old_testament": false
+    }
+  ]
+}

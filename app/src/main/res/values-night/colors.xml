@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#546e7a</color>
+    <color name="color_primary">#546e7a</color>
+
+    <color name="colorPrimaryDark">#546e7a</color>
+
+    <color name="colorAccent">#ffffff</color>
+    <color name="color_accent">#ffffff</color>
+
+    <color name="nav_color_accent">#ffffff</color>
+
+    <color name="from">#000000</color>
+    <color name="black">#000000</color>
+    <color name="verse_1">#666666</color>
+    <color name="verse_number">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#ffffff</color>
+
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+
+    <color name="bg_action_mode">#02b875</color>
+    <color name="bg_action_mode_1">#757575</color>
+    <color name="bg_circle_default">#546e7a</color>
+
+    <color name="verse">#ffffff</color>
+    <color name="location_font_color">#ffffff</color>
+
+    <color name="selected">#ffffff</color>
+    <color name="tab_unselected">#f2f2f2</color>
+
+    <color name="fragment_bg">#1c313a</color>
+
+    <color name="text_container_bg">#1c313a</color>
+    <color name="swipe_right_bg">#b0bec5</color>
+
+    <color name="splash_bg">#ffffff</color>
+    <color name="divider_border">#1c313a</color>
+
+    <color name="color_white">#ffffff</color>
+
+    <color name="color_favourite">#e0245e</color>
+
+    <color name="navigation_drawer_bg">#1c313a</color>
+
+    <color name="content_background">#4f5b62</color>
+
+    <color name="control_color">#90a4ae</color>
+    <color name="button_normal">#90a4ae</color>
+    <color name="fab_button_font_color">#90a4ae</color>
+
+    <color name="row_item_background">#1c313a</color>
+    <color name="row_item_minor_text_color">#ffffff</color>
+
+
+    <color name="num_bg_fill">#546e7a</color>
+
+</resources>

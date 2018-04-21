@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content_background"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Languages"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/primary_lang_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:background="@drawable/ll_bg"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="5dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:text="Primary Language"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/primary_language_choice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="50" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/primary_lang_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lang_layout"
+            android:lineSpacingExtra="4dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="2 installed languages available"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/primar_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/primary_lang_msg"
+            android:lineSpacingExtra="4dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="Book names, verses will be displayed in this language. Notes and favourites will still be using the language they were created in" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lang_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/primary_lang_layout"
+        android:background="@drawable/about_us_click_section"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/about_us_layout_bottom_padding"
+        android:paddingLeft="@dimen/about_us_layout_padding"
+        android:paddingRight="@dimen/about_us_layout_padding"
+        android:paddingTop="15dp"
+        android:textAlignment="center">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/ic_language_black_24dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Manage bible language"
+                android:textAlignment="textStart"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/textView7"
+                android:lineSpacingExtra="4dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="Add, remove the languages you read bible"
+                android:textAlignment="textStart" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

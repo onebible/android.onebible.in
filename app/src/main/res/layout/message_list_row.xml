@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/bottom_wrapper"
+        android:layout_width="@dimen/swipe_right_width"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/verse_share_row_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/swipe_right_bg">
+
+            <ImageView
+                android:id="@+id/share_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_share_black_24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/verse_fav_row_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/swipe_right_bg">
+
+            <ImageView
+                android:id="@+id/favrouite_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_favorite_black_24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/verse_note_row_rl"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/swipe_right_bg">
+
+            <ImageView
+                android:id="@+id/add_notes_row"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_note_black_24dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/content_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_list_row"
+        android:paddingLeft="?listPreferredItemPaddingLeft"
+        android:paddingRight="?listPreferredItemPaddingRight"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/message_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:paddingEnd="2dp"
+            android:paddingStart="35dp">
+
+            <TextView
+                android:id="@+id/txt_secondary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:textIsSelectable="true" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/icon_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="2dp"
+            android:paddingTop="12dp">
+
+            <RelativeLayout
+                android:id="@+id/icon_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillAfter="false"
+                android:fillEnabled="false">
+
+                <ImageView
+                    android:layout_width="@dimen/icon_width_height"
+                    android:layout_height="@dimen/icon_width_height"
+                    android:src="@drawable/bg_circle" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_done_white_24dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/icon_front"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillAfter="false"
+                android:fillEnabled="false">
+
+                <ImageView
+                    android:id="@+id/icon_profile"
+                    android:layout_width="@dimen/icon_width_height"
+                    android:layout_height="@dimen/icon_width_height" />
+
+                <TextView
+                    android:id="@+id/icon_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/row_item_minor_text_color"
+                    android:textSize="@dimen/verse_number_size" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/favourite_icon_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/icon_star"
+                android:layout_width="@dimen/icon_star"
+                android:layout_height="@dimen/icon_star"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:clickable="false"
+                android:src="@drawable/ic_favorite_black_24dp"
+                android:tint="@color/color_favourite" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</com.daimajia.swipe.SwipeLayout>

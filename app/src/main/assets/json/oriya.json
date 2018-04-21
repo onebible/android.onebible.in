@@ -1,0 +1,413 @@
+{
+  "header": {
+    "name": "Books"
+  },
+  "sections": [
+    {
+      "name": "ଓଲ୍ଡ ଷ୍ଟେଟାମେଣ୍ଟ",
+      "is_old_testament": true
+    },
+    {
+      "name": "ନ୍ୟୁ ଷ୍ଟେଟାମେଣ୍ଟ",
+      "is_old_testament": false
+    }
+  ],
+  "books": [
+    {
+      "id": 0,
+      "name": "ଆଦି ପୁସ୍ତକ",
+      "count": 50,
+      "is_old_testament": true
+    },
+    {
+      "id": 1,
+      "name": "ଯାତ୍ରା ପୁସ୍ତକ",
+      "count": 40,
+      "is_old_testament": true
+    },
+    {
+      "id": 2,
+      "name": "ଲେବୀୟ ପୁସ୍ତକ",
+      "count": 27,
+      "is_old_testament": true
+    },
+    {
+      "id": 3,
+      "name": "ଗଣନା ପୁସ୍ତକ",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 4,
+      "name": "ଦିତୀୟ ବିବରଣ",
+      "count": 34,
+      "is_old_testament": true
+    },
+    {
+      "id": 5,
+      "name": "ଯିହୋଶୂୟ",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 6,
+      "name": "ବିଚାରକର୍ତାମାନଙ୍କ ବିବରଣ",
+      "count": 21,
+      "is_old_testament": true
+    },
+    {
+      "id": 7,
+      "name": "ରୂତର ବିବରଣ",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 8,
+      "name": "ପ୍ରଥମ ଶାମୁୟେଲ",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 9,
+      "name": "ଦିତୀୟ ଶାମୁୟେଲ",
+      "count": 24,
+      "is_old_testament": true
+    },
+    {
+      "id": 10,
+      "name": "ପ୍ରଥମ ରାଜାବଳୀ",
+      "count": 22,
+      "is_old_testament": true
+    },
+    {
+      "id": 11,
+      "name": "ଦିତୀୟ ରାଜାବଳୀ",
+      "count": 25,
+      "is_old_testament": true
+    },
+    {
+      "id": 12,
+      "name": "ପ୍ରଥମ ବଂଶାବଳୀ",
+      "count": 29,
+      "is_old_testament": true
+    },
+    {
+      "id": 13,
+      "name": "ଦିତୀୟ ବଂଶାବଳୀ",
+      "count": 36,
+      "is_old_testament": true
+    },
+    {
+      "id": 14,
+      "name": "ଏଜ୍ରା",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 15,
+      "name": "ନିହିମିୟା",
+      "count": 13,
+      "is_old_testament": true
+    },
+    {
+      "id": 16,
+      "name": "ଏଷ୍ଟର ବିବରଣ",
+      "count": 10,
+      "is_old_testament": true
+    },
+    {
+      "id": 17,
+      "name": "ଆୟୁବ ପୁସ୍ତକ",
+      "count": 42,
+      "is_old_testament": true
+    },
+    {
+      "id": 18,
+      "name": "ଗୀତସଂହିତା",
+      "count": 150,
+      "is_old_testament": true
+    },
+    {
+      "id": 19,
+      "name": "ହିତୋପଦେଶ",
+      "count": 31,
+      "is_old_testament": true
+    },
+    {
+      "id": 20,
+      "name": "ଉପଦେଶକ",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 21,
+      "name": "ପରମଗୀତ",
+      "count": 8,
+      "is_old_testament": true
+    },
+    {
+      "id": 22,
+      "name": "ଯିଶାଇୟ",
+      "count": 66,
+      "is_old_testament": true
+    },
+    {
+      "id": 23,
+      "name": "ଯିରିମିୟ",
+      "count": 52,
+      "is_old_testament": true
+    },
+    {
+      "id": 24,
+      "name": "ଯିରିମିୟଙ୍କ ବିଳାପ",
+      "count": 5,
+      "is_old_testament": true
+    },
+    {
+      "id": 25,
+      "name": "ଯିହିଜିକଲ",
+      "count": 48,
+      "is_old_testament": true
+    },
+    {
+      "id": 26,
+      "name": "ଦାନିଏଲ",
+      "count": 12,
+      "is_old_testament": true
+    },
+    {
+      "id": 27,
+      "name": "ହୋଶେୟ",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 28,
+      "name": "ଯୋୟେଲ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 29,
+      "name": "ଆମୋଷ",
+      "count": 9,
+      "is_old_testament": true
+    },
+    {
+      "id": 30,
+      "name": "ଓବଦିୟ",
+      "count": 1,
+      "is_old_testament": true
+    },
+    {
+      "id": 31,
+      "name": "ଯୂନସ",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 32,
+      "name": "ମୀଖା",
+      "count": 7,
+      "is_old_testament": true
+    },
+    {
+      "id": 33,
+      "name": "ନାହୂମ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 34,
+      "name": "ହବକକୂକ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 35,
+      "name": "ସିଫନିୟ",
+      "count": 3,
+      "is_old_testament": true
+    },
+    {
+      "id": 36,
+      "name": "ହଗୟ",
+      "count": 2,
+      "is_old_testament": true
+    },
+    {
+      "id": 37,
+      "name": "ଯିଖରିୟ",
+      "count": 14,
+      "is_old_testament": true
+    },
+    {
+      "id": 38,
+      "name": "ମଲାଖୀ",
+      "count": 4,
+      "is_old_testament": true
+    },
+    {
+      "id": 39,
+      "name": "ମାଥିଉଲିଖିତ ସୁସମାଚାର",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 40,
+      "name": "ମାର୍କଲିଖିତ ସୁସମାଚାର",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 41,
+      "name": "ଲୂକଲିଖିତ ସୁସମାଚାର",
+      "count": 24,
+      "is_old_testament": false
+    },
+    {
+      "id": 42,
+      "name": "ଯୋହନଲିଖିତ ସୁସମାଚାର",
+      "count": 21,
+      "is_old_testament": false
+    },
+    {
+      "id": 43,
+      "name": "ରେରିତମାନଙ୍କ କାର୍ଯ୍ୟର ବିବରଣ",
+      "count": 28,
+      "is_old_testament": false
+    },
+    {
+      "id": 44,
+      "name": "ରୋମୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ପତ୍",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 45,
+      "name": "କରିନ୍ଥୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପାଉଲଙ୍କ ପ୍ରଥମ ପତ୍ର",
+      "count": 16,
+      "is_old_testament": false
+    },
+    {
+      "id": 46,
+      "name": "କରିନ୍ଥୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପାଉଲଙ୍କ ଦିତୀୟ ପତ୍ର",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 47,
+      "name": "ଗାଲାତୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ପତ୍ର",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 48,
+      "name": "ଏଫିସୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ପତ୍",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 49,
+      "name": "ଫିଲିପ୍ପୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ପତ୍ର",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 50,
+      "name": " କଲସୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ପତ୍",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 51,
+      "name": "ଥେସଲନୀକୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ପ୍ରଥମ ପତ୍ର",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 52,
+      "name": "ଥେସଲନୀକୀୟ ମଣ୍ଡଳୀ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ଦିତୀୟ ପତ୍",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 53,
+      "name": "ତୀମଥିଙ୍କ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ପ୍ରଥମ ପତ୍ର",
+      "count": 6,
+      "is_old_testament": false
+    },
+    {
+      "id": 54,
+      "name": "ତୀମଥିଙ୍କ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କ ଦିତୀୟ ପତ୍",
+      "count": 4,
+      "is_old_testament": false
+    },
+    {
+      "id": 55,
+      "name": "ତୀତସଙ୍କ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କର ପତ୍",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 56,
+      "name": "ଫିଲୀମୋନଙ୍କ ନିକଟକୁ ପ୍ରେରିତ ପାଉଲଙ୍କର ପତ୍ର",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 57,
+      "name": "ଏବ୍ରୀମାନଙ୍କ ନିକଟକୁ ପତ୍ର",
+      "count": 13,
+      "is_old_testament": false
+    },
+    {
+      "id": 58,
+      "name": "ଯାକୁବଙ୍କ ପତ୍",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 59,
+      "name": "ପିତରଙ୍କ ପ୍ରଥମ ପତ୍",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 60,
+      "name": "ପିତରଙ୍କ ଦିତୀୟ ପତ୍ର",
+      "count": 3,
+      "is_old_testament": false
+    },
+    {
+      "id": 61,
+      "name": "ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର",
+      "count": 5,
+      "is_old_testament": false
+    },
+    {
+      "id": 62,
+      "name": "ଯୋହନଙ୍କ ଦିତୀୟ ପତ୍",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 63,
+      "name": "ଯୋହନଙ୍କ ତୃତୀୟ ପତ୍ର",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 64,
+      "name": " ଯିହୂଦାଙ୍କ ପତ୍ର",
+      "count": 1,
+      "is_old_testament": false
+    },
+    {
+      "id": 65,
+      "name": "ଯୋହନଙ୍କ ପ୍ରତି ପ୍ରକାଶିତ ବାକ୍ୟ",
+      "count": 22,
+      "is_old_testament": false
+    }
+  ]
+}

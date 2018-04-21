@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chapter_listing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/content_background"
+    android:paddingTop="2dp">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/flexbox_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            app:alignContent="flex_start"
+            app:alignItems="flex_start"
+            app:flexDirection="row"
+            app:flexWrap="wrap"
+            app:justifyContent="flex_start">
+
+        </com.google.android.flexbox.FlexboxLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

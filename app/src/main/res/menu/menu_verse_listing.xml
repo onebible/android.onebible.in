@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_verse_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:orderInCategory="100"
+        android:title="@string/font_settings_title"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/bookmark_chapter"
+        android:icon="@drawable/ic_bookmark_white_24dp"
+        android:title="@string/bookmark_action_menu_title"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/yellow_thread"
+                android:title="@string/yellow_thread_title" />
+            <item
+                android:id="@+id/grey_thread"
+                android:title="@string/grey_thread_title" />
+        </menu>
+    </item>
+
+</menu>
