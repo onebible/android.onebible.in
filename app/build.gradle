@@ -7,8 +7,8 @@ android {
         applicationId "co.sridhar.tamilbible"
         minSdkVersion 21
         targetSdkVersion 26
-        versionCode 24
-        versionName "1.5.5"
+        versionCode 25
+        versionName "1.5.6"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
