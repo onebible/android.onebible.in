@@ -4,6 +4,8 @@
  
 For the list of change log, check `release.md`
 
+For checking update, the app makes calls `api.onebible.in`
+
 To download the app from the play store, click [here](https://play.google.com/store/apps/details?id=co.sridhar.tamilbible.full)
  
 To read the privacy statment of the app, visit [privacy](http://onebible.in/privacy)
