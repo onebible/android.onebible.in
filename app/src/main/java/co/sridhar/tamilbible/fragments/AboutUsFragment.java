@@ -58,7 +58,7 @@ public class AboutUsFragment extends Fragment {
                 Toast.makeText(getContext(), "Opening email", Toast.LENGTH_LONG).show();
                 Intent emailIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts(
                         "mailto", "sridhar@aghenam.com", null));
-                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Tamil Bible : Feedback");
+                emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Onebible : Feedback");
                 emailIntent.putExtra(Intent.EXTRA_TEXT, "");
                 startActivity(Intent.createChooser(emailIntent, "Send email..."));
             }
