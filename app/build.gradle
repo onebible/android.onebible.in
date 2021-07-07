@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 29
     buildToolsVersion "25.0.3"
     defaultConfig {
         applicationId "co.sridhar.tamilbible"
         minSdkVersion 21
-        targetSdkVersion 25
+        targetSdkVersion 29
         versionCode 26
         versionName "1.5.7"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
