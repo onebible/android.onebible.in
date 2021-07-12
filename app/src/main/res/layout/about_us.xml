@@ -289,7 +289,7 @@
             android:lineSpacingExtra="2dp"
             android:paddingBottom="2dp"
             android:paddingTop="10dp"
-            android:text="onebible.in"
+            android:text="onebible.in/privacy"
             android:textAlignment="center"
             android:textColor="@color/location_font_color"
             android:textIsSelectable="true"
