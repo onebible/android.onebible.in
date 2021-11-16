@@ -1,3 +1,7 @@
+## 1.5.7
+
+* 2 verse were fixed. db version 16.
+
 ## 1.5.6
 
 * 9 verses were fixed. db version 15
