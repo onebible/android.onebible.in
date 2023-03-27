@@ -88,7 +88,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             String line;
             while ((line = reader.readLine()) != null) {
                 try {
-                    System.out.println("#############" + line);
+                    System.out.println("############# " + line);
                     db.execSQL(line);
                 } catch (Exception ex) {
                     Log.e("error in executing SQL", ex.toString());
