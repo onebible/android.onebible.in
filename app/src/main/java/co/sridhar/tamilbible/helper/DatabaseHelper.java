@@ -55,6 +55,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             runDbScript(db, "db_v14.sql");
             runDbScript(db, "db_v15.sql");
             runDbScript(db, "db_v16.sql");
+            runDbScript(db, "db_v17.sql");
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Error when creating database in onCreate()::DatabaseHelper");
@@ -136,6 +137,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 runDbScript(db, "db_v15.sql");
             case 15:
                 runDbScript(db,"db_v16.sql");
+            case 16:
+                runDbScript(db,"db_v17.sql");
         }
     }
 }
