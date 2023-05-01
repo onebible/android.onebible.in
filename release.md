@@ -1,3 +1,6 @@
+## [1.5.12] - 01-May-2023
+- upgrading db to `v17`
+
 ## [1.5. 11] - 01-May-2023
 
 Fixed the following issues
