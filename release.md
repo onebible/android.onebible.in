@@ -1,3 +1,26 @@
+## [1.5. 11] - 01-May-2023
+
+Fixed the following issues
+- [Tamil typo in Acts 1:12 #14](https://github.com/onebible/android.onebible.in/issues/14)
+- [Tamil typo in Ezra 10:14,24 #15](https://github.com/onebible/android.onebible.in/issues/15)
+- [Tamil typo in Hebrew 11:10 #16](https://github.com/onebible/android.onebible.in/issues/16)
+- [Tamil typo in revelations 9:5 #17](https://github.com/onebible/android.onebible.in/issues/17)
+- [Tamil typo in எரேமியா 4 : 25 #18](https://github.com/onebible/android.onebible.in/issues/18)
+- [Tamil typo in எபிரெயர் 4 : 3 #19](https://github.com/onebible/android.onebible.in/issues/19)
+- [Tamil typo in எபிரெயர் 7:20 #20](https://github.com/onebible/android.onebible.in/issues/20)
+- [Tamil typo in II நாளாகமம் 7:14 #21](https://github.com/onebible/android.onebible.in/issues/21)
+- [missed out word in II சங்கீதம் 45 : 10 #22](https://github.com/onebible/android.onebible.in/issues/22)
+- [Font issue - Malachi 2:16 #25](https://github.com/onebible/android.onebible.in/issues/25)
+
+## [1.5.10] - 07-April-2023
+- migrate the recent android version
+
+## [1.5.9] - 12-July-2021
+- Fix: Crash issue in Android 9+ OS.
+
+## [1.5.8] - 11-July-2021
+- Adding privacy link in the About us section of the app.
+
 ## 1.5.7
 
 * 2 verse were fixed. db version 16.
