@@ -21,7 +21,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     private final Context myContext;
 
     public DatabaseHelper(Context context) {
-        super(context, DB_NAME, null, 17);
+        super(context, DB_NAME, null, 18);
         this.myContext = context;
         DB_PATH_WITH_DB_NAME = myContext.getDatabasePath(DatabaseHelper.DB_NAME).getPath();
     }
@@ -56,6 +56,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             runDbScript(db, "db_v15.sql");
             runDbScript(db, "db_v16.sql");
             runDbScript(db, "db_v17.sql");
+            runDbScript(db, "db_v18.sql");
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Error when creating database in onCreate()::DatabaseHelper");
@@ -139,6 +140,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 runDbScript(db,"db_v16.sql");
             case 16:
                 runDbScript(db,"db_v17.sql");
+            case 17:
+                runDbScript(db,"db_v18.sql");
         }
     }
 }

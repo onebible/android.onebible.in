@@ -1,3 +1,7 @@
+## [1.5.13] - 24-Jul-2023
+- [fix I யோவான் 2 : 13 #28](https://github.com/onebible/android.onebible.in/issues/28)
+- [fix: proverbs 24:4 #29](https://github.com/onebible/android.onebible.in/issues/29)
+
 ## [1.5.12] - 01-May-2023
 - upgrading db to `v17`
 
